@@ -60,10 +60,13 @@
        <section class="featured-box" id="home">
           <div class="featured-text">
             <div class="featured-text-card">
-                <span>Shawn Thomas</span>
+                <span>Software Developer</span>
             </div>
             <div class="featured-name">
-                <p>I'm a Developer<span class="typedText"></span></p>
+                <p>Shawn Thomas<span class="typedText"></span></p>
+                <div class="profile-picture">
+                    <img src="profile pic.jpg" alt="Profile Picture of Shawn">
+                </div>
             </div>
             <div class="featured-text-info">
                 <p>Computer Science student at the University of Virginia
@@ -109,7 +112,7 @@
             <div class="col">
                 <div class="about-info">
                     <h3>Introduction</h3>
-                    <p>I am a Computer Science Sophomore student at the University of Virginia with a deep interest in Machine Learning AI and Software Engineering. I'm proficient in Python, Java and Javascript, and I have a basic amount of experience in frontend development. 
+                    <p>I am a 3rd year Computer Science student at the University of Virginia with a deep interest in Software Engineering and Deep Learning. I'm proficient in Python, Java and Javascript, and I have experience in Software Development as well as Deep Learning with Tensorflow; specifically Computer Vision. 
                     </p>
                     <div class="about-btn">
                       <form method="get" action="web resume.pdf">
@@ -119,6 +122,30 @@
                 </div>
             </div>
             <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Areas of Experience</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Software Development</span>
+                        <span>Deep Learning</span>
+                        <span>Computer Vision</span>
+                        <span>Object Detection</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Technologies</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Tensorflow</span>
+                        <span>OpenCV</span>
+                        <span>Linux</span>
+                        <span>MySQL</span>
+                        <span>Scikit-learn</span>
+                        <span>Git</span>
+                    </div>
+                </div>
                 <div class="skills-box">
                     <div class="skills-header">
                         <h3>Frontend</h3>
@@ -134,6 +161,7 @@
                         <h3>Backend</h3>
                     </div>
                     <div class="skills-list">
+                        <span>Flask</span>
                         <span>JAVA</span>
                         <span>Python</span>
                         <span>C++</span>
@@ -151,10 +179,29 @@
               <h1>Projects</h1>
           </div>
           <div class="project-container">
+
+            <!---Project 1-->
+
             <div class="project-box">
                 <i class="uil uil-briefcase-alt"></i>
-                <h3>Completed</h3>
-                <label>5 Finished Projects</label>
+                <h3>Fitness Trainer Application</h3>
+                <label>A web application that utilizes the webcam of your computer to capture video of persons performing exercises, and displays the exercise being performed and helps with advice or gives tips on correcting form. Uses movenet model and openCV to process video frames, and a locally trained LSTM model on tensorflow to perform predictions and pass along data through a Flask route.</label>
+            </div>
+
+            <!---Project 2-->
+
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Stock Trend Predictor</h3>
+                <label>A web application that performs Stock price predictions and analysis on any stock present in the S&P 500 and produces the Graphical and Tabular Data to display the trends being followed by the Stocks. Uses FB Prophet model to perform predictions, and BeautifulSoup to scrape stock tickers.</label>
+            </div>
+
+            <!---Project 3-->
+
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Powr Home Sustainability App</h3>
+                <label>A web application that takes user data and inputs through questions about their homes and sustainability practices and displays recommendations and how to efficiently implement them within a home environment. </label>
             </div>
           </div>
        </section>
